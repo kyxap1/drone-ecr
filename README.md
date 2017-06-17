@@ -23,7 +23,6 @@ docker run --rm \
   -e ECR_ACCESS_KEY=N1DOBESIHFPDZBI2YBGA \
   -e ECR_SECRET_KEY=HdUp4yYnTjeDaYfH2NICMdHg0V5qHdpce1vxAySv \
   -e ECR_REGION=us-east-1 \
-  -e ECR_CREATE_REPOSITORY=true \
   -e DRONE_COMMIT_SHA=d8dbe4d94f15fe89232e0402c6e8a0ddf21af3ab \
   -v $(pwd):$(pwd) \
   -w $(pwd) \
